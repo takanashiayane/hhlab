@@ -1,0 +1,23 @@
+/usr/sbin/mysqld, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2022-11-17T12:16:13.256290-00:00
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 1.034506  Lock_time: 0.000016 Rows_sent: 0  Rows_examined: 0
+use mysql;
+SET timestamp=1668687372;
+INSERT INTO time_zone_name (Name, Time_zone_id) VALUES ('right/Asia/Chongqing', @time_zone_id);
+# Time: 2022-11-17T12:17:12.752660-00:00
+# User@Host: root[root] @ localhost []  Id:     8
+# Query_time: 4.873257  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1668687427;
+COMMIT;
+/usr/sbin/mysqld, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.28 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
